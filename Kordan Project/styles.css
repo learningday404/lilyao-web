@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+    font-weight: 400;
+}
+/* Nav bar start */
+.nav-section{
+    padding-top: 70px;
+    background-color: #171717
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ 
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px ;
+    font-weight: 600;
+    
+ 
+}
+ 
+.nav-list a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color:#DCDCDC;
+    opacity: 40%;
+    transition: all 0.2s linear;
+
+}
+
+.nav-list a:hover{
+    opacity: 100%;
+}
+ 
+ 
+.invoker-logo img{
+    width: 75px;
+    height: 75px;
+}
+
+.kordan-logo{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+ 
+/* Nav bar end */
+/* Home section start  */
+.Home-section{
+    background-color: #171717;
+    padding-top: 100px;
+    display: flex;
+}
+
+.intro-lines h1{
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    color: white;
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+.slider{
+    height: 587px;
+    width: 773px;
+    display: flex;
+    overflow: hidden;
+}
+
+.buttons{
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+}
+
+.buttons button{
+    width: 12px;
+    height: 12px;
+    border: 2px solid;
+    outline: none;
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.buttons button:nth-child(1){
+    background-color: white;
+}
